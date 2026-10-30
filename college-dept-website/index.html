@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Department of Computer Science | ABC College</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <img src="images/logo.svg" alt="Department of Computer Science logo">
+    <h1>Department of Computer Science</h1>
+    <p><em>Empowering minds, <strong>building</strong> the future</em></p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#programmes">Programmes</a>
+    <a href="#faculty">Faculty</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#enquiry">Enquiry</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About the Department</h2>
+      <p>Established in 2005, the Department of Computer Science offers
+         <b>undergraduate</b> and <i>postgraduate</i> programmes with a strong focus on
+         practical learning, research and industry collaboration.</p>
+      <p>Visit the <a href="https://www.abccollege.edu" target="_blank">main college website</a>
+         or read about <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" rel="noopener">HTML on MDN</a>.</p>
+    </section>
+
+    <section id="programmes">
+      <h2>Academic Programmes</h2>
+      <h3>Subjects Offered</h3>
+      <ul>
+        <li>Programming in C and C++</li>
+        <li>Data Structures and Algorithms</li>
+        <li>Database Management Systems</li>
+        <li>Web Technologies</li>
+        <li>Operating Systems</li>
+        <li>Artificial Intelligence</li>
+      </ul>
+      <h3>Admission Steps</h3>
+      <ol>
+        <li>Fill the enquiry form</li>
+        <li>Submit documents</li>
+        <li>Attend counselling</li>
+      </ol>
+    </section>
+
+    <section id="faculty">
+      <h2>Our Faculty</h2>
+      <table>
+        <caption>Faculty members</caption>
+        <thead>
+          <tr><th>Name</th><th>Designation</th><th>Specialization</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Dr. A. Sharma</td><td>Professor &amp; HOD</td><td>Artificial Intelligence</td></tr>
+          <tr><td>Dr. R. Iyer</td><td>Associate Professor</td><td>Data Science</td></tr>
+          <tr><td>Ms. P. Nair</td><td>Assistant Professor</td><td>Web Technologies</td></tr>
+          <tr><td>Mr. S. Khan</td><td>Assistant Professor</td><td>Computer Networks</td></tr>
+          <tr><td>Ms. L. Fernandes</td><td>Lecturer</td><td>Database Systems</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="facilities">
+      <h2>Facilities</h2>
+      <article>
+        <h3>Computer Labs</h3>
+        <p>Three air-conditioned labs with 120 high-performance systems.</p>
+      </article>
+      <article>
+        <h3>Departmental Library</h3>
+        <p>Over 5,000 books, journals and e-resources.</p>
+      </article>
+    </section>
+
+    <section id="enquiry">
+      <h2>Student Enquiry Form</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+
+        <label for="course">Course Preference</label>
+        <select id="course" name="course">
+          <option value="bsc">B.Sc Computer Science</option>
+          <option value="bca">BCA</option>
+          <option value="msc">M.Sc Computer Science</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <p><strong>Contact:</strong> Department of Computer Science, ABC College, Main Road, City - 000000</p>
+    <p>Email: <a href="mailto:cs@abccollege.edu">cs@abccollege.edu</a> | Phone: +91 12345 67890</p>
+    <p>&copy; 2026 ABC College. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
